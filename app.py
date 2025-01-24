@@ -4,7 +4,7 @@ from tensorflow.keras.datasets import imdb
 from tensorflow.keras.utils import pad_sequences
 from tensorflow.keras.models import load_model
 
-st.title('IMDB Movie Review Using Simple RNN')
+st.title('IMDB Movie Review')
 st.write('Enter a movie review to classify it as positive or negative.')
 user_input=st.text_area('Movie Review')
 
